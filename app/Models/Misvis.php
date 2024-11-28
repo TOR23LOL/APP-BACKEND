@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Misvis extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'mision', 'vision'
+    ];
 }
