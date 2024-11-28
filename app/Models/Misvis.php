@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Mis-vis extends Model
+class Misvis extends Model
 {
     use HasFactory;
 }
