@@ -16,7 +16,7 @@ class Contactos extends Migration
         Schema::create('contactos', function(Blueprint $table){
             $table->id();
             $table->string('empresa');
-            $table->string('desc-empresa');
+            $table->string('descEmpresa');
             $table->string('telefono');
             $table->string('direccion');
             $table->enum('status',['ACTIVE','DEACTIVATE'])->default('ACTIVE');
