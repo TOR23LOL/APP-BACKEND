@@ -19,7 +19,6 @@ class Contactos extends Migration
             $table->string('desc-empresa');
             $table->string('telefono');
             $table->string('direccion');
-            $table->string('redes');
             $table->enum('status',['ACTIVE','DEACTIVATE'])->default('ACTIVE');
             $table->timestamps();
         });
