@@ -13,7 +13,11 @@ class Redes extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('redes', function(Blueprint $table){
+            $table->id();
+            $table->string('urlRedes');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +27,6 @@ class Redes extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('redes');
     }
 }
